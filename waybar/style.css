@@ -1,0 +1,79 @@
+/* -*- mode: css -*- */
+
+/* @define-color highlight rgba(117, 241, 250, 1);
+@define-color blue-9 rgba(10, 25, 47, 1);
+@define-color blue-8 rgba(11, 30, 58, 1);
+@define-color blue-7 rgba(20, 33, 61, 1);
+@define-color blue-6 rgba(27, 38, 59, 1);
+@define-color blue-5 rgba(17, 45, 78, 1); */
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: JetBrainsMono NFP;
+    font-size: 15px;
+}
+
+window#waybar {
+    background-color: rgba(43, 48, 59, 0);
+    /* border-bottom: 3px solid rgba(100, 114, 125, 0.2); */
+    color: #ffffff;
+    /* transition-property: background-color; */
+    /* transition-duration: .5s; */
+}
+
+#workspaces button{
+    background: transparent;
+    border-radius: 2px;
+    color: white;
+}
+
+#workspaces button.active {
+    background: rgba(117, 241, 250, 1);
+    background: #87cefa;
+    border-radius: 10;
+    color: black;
+    font-weight: 700;
+}
+
+#workspaces button.urgent {
+    background: #dc143c;
+}
+
+#battery,
+#bluetooth,
+#network,
+#pulseaudio,
+#backlight,
+#tray,
+#clocks {
+    border-radius: 5;
+    padding-top: 0px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    padding-left: 7px;
+    background: rgba(10, 25, 47, 1);
+}
+
+#tray {
+    border-radius: 5;
+    padding-top: 0px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-left: 7px;
+    background: rgba(10, 25, 47, 1);
+}
+
+#right {
+    border-radius: 5;
+    padding: 0px 5px;
+    background:  rgba(10, 25, 47, 1);
+}
+
+#workspaces {
+    border-radius: 5;
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    background:  rgba(10, 25, 47, 1);
+}
